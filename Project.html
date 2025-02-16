@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Hub</title>
+  <link rel="stylesheet" href="Project.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Add in the <head> section -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar_1">
+      <h3 style="color: white;">Anime Hub</h3>
+      <input type="text" id="search" placeholder="Search for an anime" class="Search" style="background-color: white;">
+      <button type="submit" style="color: white;"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div class="navbar_2">
+      <i class="fa-brands fa-discord" style="color: blue; font-size: 24px;"></i>
+      <i class="fa-brands fa-telegram" style="color: skyblue; font-size: 24px;"></i>
+      <i class="fa-brands fa-reddit" style="color: orange; font-size: 24px;"></i>
+      <i class="fa-brands fa-square-x-twitter" style="color : blue; font-size:24px ;"></i>
+    </div>
+
+    <div class="navbar_3">
+      <div class="nav-item"><i class="fa-solid fa-house" style="color: #FFBADE;"></i>
+        <nav> <a href="Project.html" style="color: white;">Home</a></nav>
+      </div>
+      <div class="nav-item"><i class="fa-solid fa-shuffle" style="color: #FFBADE;"></i>
+        <nav> <a href="#title1" style="color: white;">Recommended</a> </nav>
+      </div>
+      <div class="nav-item"><i class="fa-solid fa-download" style="color: #FFBADE;"></i>
+        <nav> <a href="#title2" style="color: white;">Latest</a></nav>
+      </div>
+      <div class="nav-item"><i class="fa-solid fa-language" style="color: #FFBADE;"></i>
+        <nav> <a href="#"  style="color: white;"></a>Language </nav>
+      </div>
+      <div class="nav-item"><i class="fa-solid fa-comments" style="color: #FFBADE;"></i>
+        <nav> <a href="#"  style="color: white;"></a>Community </nav>
+      </div>
+    </div>
+
+    <div class="navbar_4">
+      <i class="fa-regular fa-bell" style="color: white;"></i>
+      <i class="fa-solid fa-user" style="color: white;"></i>
+    </div>
+  </div>
+  <div class="carasol">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bleach.jpg" class="d-block w-100" alt="..." style="height: 600px;width: 1269.9px;">
+        </div>
+        <div class="carousel-item">
+          <img src="one.jpg" class="d-block w-100" alt="..." style="height: 600px;width: 1269.9px;">
+        </div>
+        <div class="carousel-item">
+          <img src="naruto.jpg" class="d-block w-100" alt="..." style="height: 600px;width: 1269.9px;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="title1">
+    <h1> Recommended Anime</h1>
+  </div>
+  <div class="main_content" id="title1">
+    <div class="card" style="background-color: #1a1a1a;">
+      <img src="Attack on titan.jpg" alt="Anime Thumbnail" />
+      <div class="content">
+        <div class="title">Attack on Titan</div>
+        <div class="info">Aired:September 9, 2009 </div>
+        <div class="info">Status: Completed</div>
+        <div class="genres">Action, Mystery, Shounen</div>
+        <nav><a href="https://hianime.to/attack-on-titan-chronicle-2600" class="watch-btn">▶ Watch now</a></nav>
+      </div>
+    </div>
+    <div class="card" style="background-color: #1a1a1a;">
+      <img src="Blue exorsist.webp" alt="Anime Thumbnail" />
+      <div class="content">
+        <div class="title">Blue Exorcist</div>
+        <div class="info">Aired: Jan 5, 2025</div>
+        <div class="info">Status: Currently Airing</div>
+        <div class="genres">Action, Mystery, School, Shounen</div>
+        <a href="https://hianime.to/blue-exorcist-the-blue-night-saga-19504" class="watch-btn">▶ Watch now</a>
+      </div>
+    </div>
+    <div class="card" style="background-color: #1a1a1a;">
+      <img src="deathnote.jpg" alt="Anime Thumbnail" />
+      <div class="content">
+        <div class="title">Death Note</div>
+        <div class="info">Aired: December 1, 2003</div>
+        <div class="info">Status: Completed</div>
+        <div class="genres">Psychological thriller, Supernatural thrille</div>
+        <a href="https://hianime.to/death-note-60" class="watch-btn">▶ Watch now</a>
+      </div>
+    </div>
+    <div class="card" style="background-color: #1a1a1a;">
+      <img src="fruits basket.jpg" alt="Anime Thumbnail" />
+      <div class="content">
+        <div class="title">Fruit Basket</div>
+        <div class="info">Aired: 6 April 2019</div>
+        <div class="info">Status: Completed</div>
+        <div class="genres">Romantic comedy, Slice of life, Supernatural</div>
+        <a href="https://hianime.to/fruits-basket-the-final-15707" class="watch-btn">▶ Watch now</a>
+      </div>
+    </div>
+    <div class="card" style="background-color: #1a1a1a;">
+      <img src="Noragami.jpg" alt="Anime Thumbnail" />
+      <div class="content">
+        <div class="title">Noragami</div>
+        <div class="info">Aired: October 2, 2015</div>
+        <div class="info">Status: Currently Airing</div>
+        <div class="genres">Action, Super Natural, School, Shounen</div>
+        <a href="https://hianime.to/noragami-491" class="watch-btn">▶ Watch now</a>
+      </div>
+    </div>
+  </div>
+  <div class="text" style="height: 40px; background-color: #1a1a1a;">
+    <h2>Latest Episode</h2>
+  </div>
+  <div class="main-content" id="title2">
+    <!-- Anime Poster Grid -->
+    <div class="anime-grid">
+      <div class="anime-card">
+        <img src="sorairo utility.jpg" alt="Anime Poster">
+        <h3>Sorario utility</h3>
+
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="the demon hunter.jpg" alt="Anime Poster">
+        <h3>The Demon Hunter </h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="ubel blatt.jpg" alt="Anime Poster">
+        <h3> Ubels Blatt</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="i may be.jpg" alt="Anime Poster">
+        <h3> I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="Momentary lily.jpg" alt="Anime Poster">
+        <h3> Momentary Lilies</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="re-zero.jpg" alt="Anime Poster">
+        <h3> Re:Zero - Starting Life in Another World</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="Swallowed Star 2nd Season.jpg" alt="Anime Poster">
+        <h3> Swallowed Star 2nd Season</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="A Terrified Teacher at Ghoul School.jpg" alt="Anime Poster">
+        <h3> A Terrified Teacher at Ghoul School</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="Unnamed Memory Season 2.jpg" alt="Anime Poster">
+        <h3> Unnamed Memory Season 2</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+      <div class="anime-card">
+        <img src="Tying the Knot with an Amagami Sister.jpg" alt="Anime Poster">
+        <h3> Tying the Knot with an Amagami Sister</h3>
+        <button class="watch-now">Watch Now</button>
+      </div>
+
+      <!-- Repeat anime cards as needed -->
+    </div>
+
+    <!-- Top 10 Ranking List -->
+    <div class="ranking-list">
+      <h2>Top 10 Anime</h2>
+      <ol>
+        <li>
+          <img src="smallonepiece.jpg" alt="Anime Thumbnail">
+          <span>One Pice</span>
+        </li>
+        <li>
+          <img src="theelusive2.jpg" alt="Anime Thumbnail">
+          <span>The Elusive Samurai</span>
+        </li>
+        <li>
+          <img src="dairy.jpg" alt="Anime Thumbnail">
+          <span>The Apothecary Diary</span>
+        </li>
+        <li>
+          <img src="nana.jpg" alt="Anime Thumbnail">
+          <span>Nana</span>
+        </li>
+        <li>
+          <img src="dragonball.jpg" alt="Anime Thumbnail">
+          <span>Dragon ball</span>
+        </li>
+        <li>
+          <img src="jujustsu.jpg" alt="Anime Thumbnail">
+          <span>Jujustsu Kaisen </span>
+        </li>
+        <li>
+          <img src="vinlandsaga.jpg" alt="Anime Thumbnail">
+          <span>Vinland saga</span>
+        </li>
+        <li>
+          <img src="you lie.jpg" alt="Anime Thumbnail">
+          <span>You lie in april</span>
+        </li>
+        <li>
+          <img src="globin slayer.jpg" alt="Anime Thumbnail">
+          <span>Globin slayer</span>
+        </li>
+        <li>
+          <img src="demonslayer.jpg" alt="Anime Thumbnail">
+          <span>Demon slayer</span>
+        </li>
+        <!-- Repeat ranking entries up to 10 -->
+      </ol>
+    </div>
+  </div>
+  <footer>
+    <!-- <img src="Luffy-One-Piece-Red-removebg-preview.png" alt="" class="imgg"> -->
+    <h2 style="background-color: #1a1a1a; "> Anime Recommendation Form</h2>
+    <div class="video-container">
+      <video autoplay loop muted>
+        <source src="vedio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="form-overlay">
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="genre">Favourite Genre:</label>
+          <select id="genre" name="genre" required style="color: aqua;">
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Horror">Horror</option>
+            <option value="Romance">Romance</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Slice of Life">Slice of Life</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="anime">Favourite Anime:</label>
+          <input type="text" id="anime" name="anime" required>
+
+          <label for="reason">Why is it your favourite?</label>
+          <textarea id="reason" name="reason" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- Optional: Add JavaScript Bundle for Bootstrap components like modals, tooltips -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
